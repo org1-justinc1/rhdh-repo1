@@ -1,0 +1,17 @@
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: mynamespace.mycollection
+  description: repo1 desc
+  tags:
+    - ansible
+    - playbook
+  annotations:
+    backstage.io/techdocs-ref: dir:.
+    github.com/project-slug: org1-justinc1/rhdh-repo1
+spec:
+  type: playbook-project
+  system: devhub-jc1
+  lifecycle: production
+  owner: rhdh-jc1
